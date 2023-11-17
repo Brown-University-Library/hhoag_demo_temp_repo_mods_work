@@ -1,0 +1,66 @@
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/mods/v3/mods-3-7.xsd">
+  <mods:titleInfo>
+    <mods:title>American Mercury records -- HH020005_0001</mods:title>
+  </mods:titleInfo>
+  <mods:typeOfResource authority="primo" authorityURI="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/100Loading_Records_from_External_Sources_into_Primo_VE/Configuring_Normalization_Rules_for_External_Resources_(Primo_VE)#Supported_Resource_Types_in_Primo_VE">text_resources</mods:typeOfResource>
+  <mods:note type="preferredcitation">Item of "American Mercury records, The Gordon Hall and Grace Hoag Collection of Extremist and Dissenting Printed Propaganda, Ms.76.23, Brown University Library"</mods:note>
+  <mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+    <mods:languageTerm type="text">English</mods:languageTerm>
+  </mods:language>
+  <mods:accessCondition type="rights statement" xlink:href="http://rightsstatements.org/vocab/InC-EDU/1.0/">In Copyright - Educational Use Permitted</mods:accessCondition>
+  <mods:accessCondition type="restriction on access">Collection is open for research.</mods:accessCondition>
+  <mods:abstract type="general">TEMP -- PERHAPS SUMMARIZATION COULD GO HERE IN FUTURE, FROM OCR-TEXT</mods:abstract>
+ 
+  <!-- question for MR: how to incorporate "document-keywords"? -->
+  <!--
+  <mods:subject>
+    <mods:name type="corporate" authority="local">
+      <mods:namePart>American Mercury</mods:namePart>
+    </mods:name>
+  </mods:subject>
+  <mods:subject authority="local">
+    <mods:topic>Militant Anti-Communist (MAC)</mods:topic>
+  </mods:subject>
+  <mods:subject authority="local">
+    <mods:topic>Politics</mods:topic>
+  </mods:subject>
+  -->
+  <mods:relatedItem type="host">
+    <mods:titleInfo>
+      <mods:title>The Gordon Hall and Grace Hoag Collection of Extremist and Dissenting Printed Propaganda</mods:title>
+    </mods:titleInfo>
+    <mods:identifier type="local">Ms.76.23</mods:identifier>
+    <mods:location>
+      <mods:physicalLocation>Brown University Library, John Hay Library, University Archives and Manuscripts, Box A, Brown University, Providence, RI, 02912, U.S.A., (http://library.brown.edu/)</mods:physicalLocation>
+      <mods:url>https://www.riamco.org/render?eadid=US-RPB-mshallhoag</mods:url>
+      <mods:holdingSimple>
+        <mods:copyInformation>
+          <mods:shelfLocator>A-50, A-51, Z-9</mods:shelfLocator>
+          <mods:electronicLocator>https://apps.library.brown.edu/hall-hoag/catalog/US-RPB-HH_020005</mods:electronicLocator>
+        </mods:copyInformation>
+      </mods:holdingSimple>
+    </mods:location>
+  </mods:relatedItem>
+
+  <!-- question for MR: I've made this up, based on the <mods:relatedItem type="host"> above. My intent: to acknowledge, in this MODS, that this item is a part of the American Mercury collection. Suggestions?  -->
+  <mods:relatedItem type="collection">
+    <mods:titleInfo>
+      <mods:title>American Mercury records</mods:title>
+    </mods:titleInfo>
+    <mods:identifier type="local">HH020005</mods:identifier>
+    <mods:location>
+      <mods:physicalLocation>Brown University Library, John Hay Library, University Archives and Manuscripts, Box A, Brown University, Providence, RI, 02912, U.S.A., (http://library.brown.edu/)</mods:physicalLocation>
+      <mods:url>https://www.riamco.org/render?eadid=US-RPB-mshallhoag</mods:url>
+      <mods:holdingSimple>
+        <mods:copyInformation>
+          <mods:shelfLocator>A-50, A-51, Z-9</mods:shelfLocator>
+          <mods:electronicLocator>https://apps.library.brown.edu/hall-hoag/catalog/US-RPB-HH_020005</mods:electronicLocator>
+        </mods:copyInformation>
+      </mods:holdingSimple>
+    </mods:location>
+  </mods:relatedItem>
+
+  <mods:identifier type="local">HH020005_0001</mods:identifier> 
+  <mods:note displayLabel="Digital object made available by">Brown University Library, John Hay Library, University Archives and Manuscripts, Box A, Brown University, Providence, RI, 02912, U.S.A., (http://library.brown.edu/)</mods:note>
+</mods:mods>
