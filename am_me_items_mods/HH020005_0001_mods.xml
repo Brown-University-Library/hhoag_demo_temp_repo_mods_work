@@ -44,7 +44,7 @@
   </mods:relatedItem>
 
   <!-- question for MR: I've made this up, based on the <mods:relatedItem type="host"> above. My intent: to acknowledge, in this MODS, that this item is a part of the American Mercury collection. Suggestions?  -->
-  <mods:relatedItem type="collection">
+  <mods:relatedItem type="references">
     <mods:titleInfo>
       <mods:title>American Mercury records</mods:title>
     </mods:titleInfo>
